@@ -1,0 +1,19 @@
+.avatar {
+  width: 300px;
+}
+.name {
+  font-size: 24px;
+  font-weight: 700;
+}
+.tag {
+  font-size: 18px;
+  font-weight: 500;
+}
+.stats {
+  list-style: none;
+  padding-left: 0;
+}
+.label {
+  margin-right: 5px;
+  font-weight: 500;
+}

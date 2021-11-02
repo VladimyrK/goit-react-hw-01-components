@@ -1,0 +1,12 @@
+.spanIsOnline {
+  display: inline-flex;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+.isOnline {
+  background-color: green;
+}
+.isOffline {
+  background-color: red;
+}
