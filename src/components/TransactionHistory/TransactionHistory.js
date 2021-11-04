@@ -1,10 +1,10 @@
 import PropTypes from 'prop-types'
 import s from './TransactionHistory.module.css'
-import Transaction from './Transaction'
+import Transaction from '../Transaction/Transaction'
 
 const TransactionHistory = ({ items }) => {
   return (
-    <table class={s.transactionHistory}>
+    <table className={s.transactionHistory}>
       <thead>
         <tr>
           <th>Type</th>
@@ -23,7 +23,7 @@ const TransactionHistory = ({ items }) => {
 }
 
 TransactionHistory.propTypes = {
-  items: PropTypes.objectOf(PropTypes.string),
+  items: PropTypes.arrayOf(PropTypes.objectOf(PropTypes.string)),
 }
 
 export default TransactionHistory
